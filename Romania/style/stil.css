@@ -1,0 +1,15 @@
+body {
+  background-color: black;
+  font-family: Verdana, sans-serif;
+  margin: 3%;
+}
+
+.row > .column {
+  padding: 0 8px;
+}
+
+
+.column {
+  float: left;
+  width: 25%;
+}
