@@ -1,0 +1,184 @@
+/*------body-----*/
+
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+}
+
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+/*------------- Header -----------*/
+
+
+header{
+  background:#008F95;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom: #290c02 2px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #brand{
+  float: left;
+}
+
+header #brand h1{
+  margin:0;
+}
+
+header nav{
+  float: right;
+  margin-top:10px;
+}
+
+header .actual a{
+  color:#ed5e0c;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#000000;
+  font-weight:bold;
+}
+
+/*-----------menu----------*/
+
+.menu{
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+/*--------home-------*/
+
+.home{
+	text-align: center;
+}
+
+/*-------despre-------*/
+/*------stema & harta------*/
+.stema{
+	float: left;
+	margin: 30px;
+	margin-bottom: 300px;
+}
+
+.harta{
+	float: right;
+	margin-left: 30px;
+	margin-right: 10px;
+	margin-bottom: 300px;
+
+}
+
+.despre{
+	text-align: center;
+	margin: 50px;
+}
+
+/*--------obiective----------*/
+
+.obiective{
+	text-align: center;
+	margin: 50px;
+}
+
+/*---------obiective turistice----------*/
+
+.objTur{
+	text-align: justify;
+	margin-right: 400px;
+	margin-left: 50px;
+	margin-bottom: 120px;
+}
+
+.fotoObj{
+	float: right;    
+ 	margin-right: 15px;
+}
+
+
+#h{
+	margin-left: 50px;
+}
+
+/*---------restaurante-----------*/
+
+.restaurante{
+	text-align: center;
+	margin: 50px;
+}
+.objMasa{
+	text-align: justify;
+	margin-right: 400px;
+	margin-left: 50px;
+	margin-bottom: 200px;
+}
+
+.fotoMasa{
+	float: right;    
+ 	margin-right: 15px;
+}
+
+/*----------distractie-----------*/
+
+.distractie{
+	text-align: center;
+	margin: 50px;
+}
+
+
+
+/*---------contact-------------*/
+
+.contact{
+	text-align: center;
+}
+
+.empty{
+	text-align: center;
+	margin: 10px;
+
+}
+
+/*------------feedback----------*/
+.feedback{
+	text-align: center;
+}
+
+
+/*--------footer------*/
+
+footer{
+
+	padding:20px;
+	margin-top:10px;
+	margin-bottom: 0px;
+	color:#ffffff;
+	background-color:#2a535e;
+	text-align: center;
+}
